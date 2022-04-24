@@ -1,0 +1,12 @@
+[submodule "lib/Adafruit_FXOS8700"]
+	path = lib/Adafruit_FXOS8700
+	url = https://github.com/adafruit/Adafruit_FXOS8700
+[submodule "lib/Adafruit_FXAS21002C"]
+	path = lib/Adafruit_FXAS21002C
+	url = https://github.com/adafruit/Adafruit_FXAS21002C
+[submodule "lib/Adafruit_Sensor"]
+	path = lib/Adafruit_Sensor
+	url = https://github.com/adafruit/Adafruit_Sensor
+[submodule "lib/Adafruit_BusIO"]
+	path = lib/Adafruit_BusIO
+	url = https://github.com/adafruit/Adafruit_BusIO
