@@ -6,12 +6,12 @@ If you arrived here expecting to see something related to computer graphics, the
 
 # Background
 
-A while back I stumbled across this research project, dubbed Cubli:
+A while back I stumbled across this research project video, dubbed Cubli:
 
 [![Cubli Project](http://img.youtube.com/vi/n_6p-1J551Y/hqdefault.jpg)](https://www.youtube.com/watch?v=n_6p-1J551Y)
 
 Now while this robot isn't exactly _new_ by any means...
-* [Cubli design](https://www.wevolver.com/wevolver.staff/cubli#:~:text=The%20Cubli%20is%20a%20one,the%20Cubli%20to%20jump%20up)
+* [Cubli original design](https://www.wevolver.com/wevolver.staff/cubli#:~:text=The%20Cubli%20is%20a%20one,the%20Cubli%20to%20jump%20up)
 * [Cubli using quaternions](https://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=9524577)
 
 I did want to see if I could recreate such a robot with relatively inexpensive off-the-shelf components and more importantly, simple controllers.
@@ -20,10 +20,13 @@ Do you really need fancy quaternion math to keep a cube stable on its vertex? Ca
 
 # Project Goals
 
-* :grey_exclamation: **Low Cost:** 3D printed frame, gimbal motors (maybe?), steel rings as reaction wheels, etc.
-* :grey_exclamation: **Basic Math:** Since I was never good at it to begin with :P
-* :heavy_check_mark: **Open Source:** In case anyone else wanted to contribute
-* :heavy_check_mark: **Looks DANK:** A must for any robot these days
+:grey_exclamation: **Low Cost:** 3D printed frame, gimbal motors (maybe?), steel rings as reaction wheels, etc.
+
+:grey_exclamation: **Basic Math:** Since I was never good at it to begin with :P
+
+:heavy_check_mark: **Open Source:** In case anyone else wanted to contribute
+
+:heavy_check_mark: **Looks DANK:** A must for any robot these days
 
 # Hardware Overview
 
