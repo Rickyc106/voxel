@@ -2,13 +2,15 @@
 
 If you arrived here expecting to see something related to computer graphics, then sorry to disappoint...
 
-...But in the off chance you're intrigued by balancing cubes, you're in the right place!
+...But in the off chance you're intrigued by self-balancing cubes, you're in the right place!
 
 # Background
 
-A while back I stumbled across this research project video, dubbed Cubli:
+A while back I stumbled across this research project, dubbed Cubli:
 
-[![Cubli Project](http://img.youtube.com/vi/n_6p-1J551Y/hqdefault.jpg)](https://www.youtube.com/watch?v=n_6p-1J551Y)
+![Cubli](https://user-images.githubusercontent.com/15114673/165008159-6efda159-1dbb-4daf-8867-a9a6a5a587ef.gif)
+
+Source: [ETH Zurich](https://www.youtube.com/watch?v=n_6p-1J551Y)
 
 Now while this robot isn't exactly _new_ by any means...
 * [Cubli original design](https://www.wevolver.com/wevolver.staff/cubli#:~:text=The%20Cubli%20is%20a%20one,the%20Cubli%20to%20jump%20up)
