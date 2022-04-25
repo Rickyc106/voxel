@@ -50,14 +50,14 @@ namespace utils
          *      Inverse rotation about y-axis produces a positive x-angle
          *      Forward rotation about x-axis produces a positive y-angle
          * @returns
-         *      gyro-angle
+         *      gyro-angle in deg
          */
         Euler calculateAngleForGyro(const sensors_event_t& sensor) const
         {
             Euler result;
-            result.x = -sensor.gyro.y * (timestep_ms / MS_TO_SEC) * RAD_TO_DEG, 180;
-            result.y =  sensor.gyro.x * (timestep_ms / MS_TO_SEC) * RAD_TO_DEG, 180;
-            result.z =  sensor.gyro.z * (timestep_ms / MS_TO_SEC) * RAD_TO_DEG, 180;
+            result.x = -sensor.gyro.y * (timestep_ms / MS_TO_SEC) * RAD_TO_DEG;
+            result.y =  sensor.gyro.x * (timestep_ms / MS_TO_SEC) * RAD_TO_DEG;
+            result.z =  sensor.gyro.z * (timestep_ms / MS_TO_SEC) * RAD_TO_DEG;
 
             return result;
         }
@@ -69,14 +69,14 @@ namespace utils
          *      tangent inverse approaches a singularity point and may be undefined,
          *      e.g. when imu is on a perfectly flat table
          * @returns
-         *      accelerometer-angle
+         *      accelerometer-angle in deg
          */
         Euler calculateAngleForAccel(const sensors_event_t& sensor) const
         {
             Euler result;
-            result.x = atan2(sensor.acceleration.x, sensor.acceleration.z) * RAD_TO_DEG, 180;
-            result.y = atan2(sensor.acceleration.y, sensor.acceleration.z) * RAD_TO_DEG, 180;
-            result.z = atan2(sensor.acceleration.x, sensor.acceleration.y) * RAD_TO_DEG, 180;
+            result.x = atan2(sensor.acceleration.x, sensor.acceleration.z) * RAD_TO_DEG;
+            result.y = atan2(sensor.acceleration.y, sensor.acceleration.z) * RAD_TO_DEG;
+            result.z = atan2(sensor.acceleration.x, sensor.acceleration.y) * RAD_TO_DEG;
 
             return result;
         }
