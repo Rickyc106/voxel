@@ -32,7 +32,7 @@ Do you really need fancy quaternion math to keep a cube stable on its vertex? Ca
 
 # Hardware Overview
 
-<img src=https://user-images.githubusercontent.com/15114673/165002022-69e958a0-5319-45f0-a082-ec386f60e09a.png width="698" height="720"/>
+<img src=https://user-images.githubusercontent.com/15114673/165002022-69e958a0-5319-45f0-a082-ec386f60e09a.png width="65%" height="65%"/>
 
 Shown above is a current prototype CAD model, excluding batteries, sensors, MCU and a LOT more but gives a rough approximation for what an end product may look like at the moment.
 
